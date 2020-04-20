@@ -1,4 +1,4 @@
-package main
+package duckorm
 
 import (
 	"database/sql"
