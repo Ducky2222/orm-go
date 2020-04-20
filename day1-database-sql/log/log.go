@@ -40,4 +40,3 @@ func setLogLevel(level int) {
 	if InfoLevel < level { infoLog.SetOutput(ioutil.Discard) }
 	if ErrorLevel < level { errorLog.SetOutput(ioutil.Discard) }
 }
-
